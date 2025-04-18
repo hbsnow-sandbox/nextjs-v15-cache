@@ -4,9 +4,6 @@
       "file": ".github/copilot-instructions.md"
     },
     {
-      "file": ".copilot/rules/01-memory-bank.md"
-    },
-    {
       "file": ".copilot/rules/02-base.md"
     },
     {
@@ -18,7 +15,7 @@
   ],
   "github.copilot.chat.commitMessageGeneration.instructions": [
     {
-      "text": ".copilot/settings/commit-message-generation.md"
+      "file": ".copilot/settings/commit-message-generation.md"
     }
   ],
   "github.copilot.chat.testGeneration.instructions": [
@@ -31,5 +28,8 @@
       "file": ".copilot/settings/review-selection.md"
     }
   ],
-  "github.copilot.chat.codesearch.enabled": true
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.chat.agent.thinkingTool": true,
+  "github.copilot.chat.completionContext.typescript.mode": "on",
+  "github.copilot.chat.editor.temporalContext.enabled": false
 }
