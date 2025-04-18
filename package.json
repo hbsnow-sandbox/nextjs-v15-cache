@@ -1,0 +1,13 @@
+{
+  "name": "nextjs-monorepo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "lint": "pnpm -r lint"
+  }
+}
