@@ -8,6 +8,9 @@
   "scripts": {
     "build": "pnpm -r build",
     "dev": "pnpm -r dev",
+    "dev:api": "pnpm --filter server dev",
+    "dev:v14": "pnpm --filter v14 dev",
+    "dev:v15": "pnpm --filter v15 dev",
     "lint": "pnpm -r lint"
   }
 }

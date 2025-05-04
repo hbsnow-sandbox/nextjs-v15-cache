@@ -1,6 +1,6 @@
 import { Hello } from "./_hello";
 
-export default function Page() {
+export default async function Page() {
   return (
     <main>
       <Hello />
